@@ -4,25 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="меню">
   <link rel="shortcut icon" href="#" type="image/x-icon">
   <title>vieJs</title>
   <link rel="stylesheet" href="css/style.css">
+  <!-- Import Vue.js -->
+  <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
 </head>
 
 <body>
-  <div class="nav-bar"></div>
 
-  <div id="app">
-
-    <div class="cart">
-      <p>в корзине: {{ cart.length }}</p>
-    </div>
-    <product :premium="premium" @add-to-cart="updateCart"></product>
-  </div>
+<div id="app">
+  <h1>Product goes here</h1>
+</div>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="js/index.js"></script>
 </body>
 
